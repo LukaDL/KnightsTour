@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Knight's Tour</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<form action="ChooseMethod">
+		<table>
+			<tr>
+				<td colspan="2"><h2>Knight's Tour Servlet Application</h2></td>
+			</tr>
+			<tr>
+				<td colspan="2"><p>Please choose the method you would like to run</p></td>
+			</tr>
+			<tr>
+				<td><input type="radio" name="methodType" value="nonIntelligent"></td>
+				<td><input type="radio" name="methodType" value="heuristic"></td>
+			</tr>
+			<tr>
+				<td>Non-Intelligent Method</td>
+				<td>Heuristic Method</td>
+			</tr>
+			<tr>
+				<td>Times to run: </td>
+				<td><input type="number" name="runTimes"></td>
+			</tr>
+			<tr>
+				<td>Start Position X: </td>
+				<td><input type="number" name="startX"></td>
+			</tr>
+			<tr>
+				<td>Start Position Y: </td>
+				<td><input type="number" name="startY"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" name="submit" value="Run">
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
